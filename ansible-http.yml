@@ -8,7 +8,7 @@
         yum:
           name: httpd
           state: latest
-      - name: ensure apache is running
+      - name: ensure apache is really running
         service:
           name: httpd
           state: started
